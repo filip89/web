@@ -1,0 +1,27 @@
+	body {
+		padding: 0px;
+		margin: 0px;
+		background-color: #4d4d4d;
+	}
+	.gameMenu {
+		width: 500px;
+		margin: auto;
+		margin-top: 200px;
+		background-color: #333333;
+		color: #d9d9d9;
+		text-align: center;
+		border-radius: 5px;
+	}
+	a {
+		display: block;
+		padding: 10px;
+		font-size: 20px;
+		text-decoration: none;
+		color: #d9d9d9;
+	}
+	a:hover {
+		text-decoration: none;
+		color: #d9d9d9;
+		background-color: #0d0d0d;
+		border-radius: 5px;
+	}

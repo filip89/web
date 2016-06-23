@@ -1,0 +1,27 @@
+table {
+	margin: auto;
+	width: 800px;
+	margin-top: 100px;
+	background-color: #404040;
+	color: white;
+	font-size: 16px;
+	text-align: center;
+	border-radius: 5px;
+	}
+table a{
+	text-decoration: none;
+	color: white;
+}
+th{
+	font-size: 20px;
+	background-color:black;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	}
+th, .forumSec td {
+	padding: 10px;
+}
+<!--NE vrijedi za IE-->
+tr:not(:first-child):nth-child(even) {
+	background-color: #666666;
+}
